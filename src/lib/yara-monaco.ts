@@ -1,5 +1,6 @@
-import * as monaco from "@codingame/monaco-vscode-editor-api";
 import "@codingame/monaco-vscode-editor-api/esm/vs/editor/contrib/format/browser/formatActions.js";
+
+import * as monaco from "@codingame/monaco-vscode-editor-api";
 
 import {
   BrowserMessageReader,
@@ -11,11 +12,11 @@ import {
   useWorkerFactory,
 } from "monaco-languageclient/workerFactory";
 
+import EditorWorker from "@codingame/monaco-vscode-editor-api/esm/vs/editor/editor.worker.js?worker";
 import { MonacoLanguageClient } from "monaco-languageclient";
 import { MonacoVscodeApiWrapper } from "monaco-languageclient/vscodeApiWrapper";
 import YaraLsWorker from "../workers/yara-ls.worker?worker";
 import { createModelReference } from "@codingame/monaco-vscode-api/monaco";
-import editorWorkerUrl from "@codingame/monaco-vscode-editor-api/esm/vs/editor/editor.worker.js?url";
 
 const RULE_URI = monaco.Uri.file("/workspace/main.yar");
 const SAMPLE_URI = monaco.Uri.file("/workspace/sample.txt");
@@ -87,8 +88,7 @@ let themeRegistered = false;
 function configureAppWorkerFactory() {
   useWorkerFactory({
     workerLoaders: {
-      editorWorkerService: () =>
-        new MonacoWorkerDefinition(editorWorkerUrl, { type: "module" }),
+      editorWorkerService: () => new EditorWorker() as unknown as MonacoWorkerDefinition,
       extensionHostWorkerMain: undefined,
       TextMateWorker: undefined,
       OutputLinkDetectionWorker: undefined,
