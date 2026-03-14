@@ -4,6 +4,7 @@ import path from "node:path";
 import { visualizer } from "rollup-plugin-visualizer";
 
 export default defineConfig({
+  base: process.env.GITHUB_ACTIONS ? '/yara-x-playground/' : '/',
   worker: {
     format: "es",
   },
