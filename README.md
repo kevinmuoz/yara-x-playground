@@ -1,5 +1,9 @@
 # YARA-X Playground
 
+[![Deploy Pages](https://github.com/kevinmuoz/yara-x-playground/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/kevinmuoz/yara-x-playground/actions/workflows/deploy-pages.yml)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-blue?logo=github)](https://kevinmuoz.github.io/yara-x-playground/)
+[![Vercel](https://img.shields.io/badge/Vercel-live-black?logo=vercel)](https://yara-x-playground.vercel.app)
+
 Write, format, and run YARA rules directly in the browser using WebAssembly.
 
 A playground that combines [YARA-X](https://github.com/VirusTotal/yara-x), the Rust implementation of YARA, with Monaco Editor and the YARA language server so you can experiment with rules instantly without installing anything.
