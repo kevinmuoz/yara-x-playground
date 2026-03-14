@@ -1,0 +1,21 @@
+{
+  "name": "yara-x-ls",
+  "type": "module",
+  "description": "Language Server for YARA-X.\n",
+  "version": "1.14.0",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VirusTotal/yara-x"
+  },
+  "files": [
+    "yara_x_ls_bg.wasm",
+    "yara_x_ls.js",
+    "yara_x_ls.d.ts"
+  ],
+  "main": "yara_x_ls.js",
+  "types": "yara_x_ls.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

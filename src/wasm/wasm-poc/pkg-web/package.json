@@ -1,0 +1,32 @@
+{
+  "name": "yara-x",
+  "type": "module",
+  "collaborators": [
+    "Victor M. Alvarez <vmalvarez@virustotal.com>"
+  ],
+  "description": "A pure Rust implementation of YARA.\n",
+  "version": "1.14.0",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VirusTotal/yara-x"
+  },
+  "files": [
+    "yara_x_bg.wasm",
+    "yara_x.js",
+    "yara_x.d.ts"
+  ],
+  "main": "yara_x.js",
+  "homepage": "https://virustotal.github.io/yara-x",
+  "types": "yara_x.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ],
+  "keywords": [
+    "pattern-matching",
+    "cybersecurity",
+    "forensics",
+    "malware",
+    "yara"
+  ]
+}
