@@ -89,12 +89,6 @@ function configureAppWorkerFactory() {
   useWorkerFactory({
     workerLoaders: {
       editorWorkerService: () => new EditorWorker() as unknown as MonacoWorkerDefinition,
-      extensionHostWorkerMain: undefined,
-      TextMateWorker: undefined,
-      OutputLinkDetectionWorker: undefined,
-      LanguageDetectionWorker: undefined,
-      NotebookEditorWorker: undefined,
-      LocalFileSearchWorker: undefined,
     },
   });
 }
