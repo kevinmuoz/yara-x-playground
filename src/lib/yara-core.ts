@@ -1,7 +1,7 @@
 import initYara, {
   checkRule as wasmCheckRule,
   scanBytes as wasmScanBytes,
-} from "../../public/wasm-poc/pkg-web/yara_x.js";
+} from "../wasm/wasm-poc/pkg-web/yara_x.js";
 
 let initPromise: Promise<unknown> | undefined;
 

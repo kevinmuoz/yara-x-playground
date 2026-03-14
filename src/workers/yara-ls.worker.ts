@@ -1,6 +1,6 @@
 import initYaraLs, {
   runWorkerServer,
-} from "../../public/wasm-ls/pkg-web/yara_x_ls.js";
+} from "../wasm/wasm-ls/pkg-web/yara_x_ls.js";
 
 async function main() {
   await initYaraLs();
