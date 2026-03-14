@@ -1,12 +1,22 @@
 import { defineConfig } from "vite";
 import os from "node:os";
 import path from "node:path";
-import { visualizer } from "rollup-plugin-visualizer";
+// import { visualizer } from "rollup-plugin-visualizer";
 
 export default defineConfig({
   base: process.env.GITHUB_ACTIONS ? '/yara-x-playground/' : '/',
   worker: {
     format: "es",
+  },
+  optimizeDeps: {
+    include: ['@codingame/monaco-vscode-editor-api'],
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        format: 'es',
+      },
+    },
   },
   server: {
     fs: {
