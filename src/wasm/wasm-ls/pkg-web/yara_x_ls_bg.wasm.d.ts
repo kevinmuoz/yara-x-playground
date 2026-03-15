@@ -5,77 +5,21 @@ export const runServer: (a: number, b: number) => any;
 export const runWorkerServer: () => [number, number];
 export const checkRule: (a: number, b: number) => any;
 export const scanBytes: (a: number, b: number, c: any) => any;
-export const wasm_bindgen__closure__destroy__ha454c353198b8054: (
-  a: number,
-  b: number,
-) => void;
-export const wasm_bindgen__closure__destroy__h8adb3af7ff435f6c: (
-  a: number,
-  b: number,
-) => void;
-export const wasm_bindgen__closure__destroy__h36b6c9a300d0486e: (
-  a: number,
-  b: number,
-) => void;
-export const wasm_bindgen__closure__destroy__h878cb9c37cd44473: (
-  a: number,
-  b: number,
-) => void;
-export const wasm_bindgen__closure__destroy__h65de18f2a4d9e407: (
-  a: number,
-  b: number,
-) => void;
-export const wasm_bindgen__convert__closures_____invoke__hb76a20d55fe78f24: (
-  a: number,
-  b: number,
-  c: any,
-  d: any,
-  e: any,
-  f: any,
-) => any;
-export const wasm_bindgen__convert__closures_____invoke__h29722c052e82f826: (
-  a: number,
-  b: number,
-  c: any,
-) => [number, number];
-export const wasm_bindgen__convert__closures_____invoke__h3d61d62c94915419: (
-  a: number,
-  b: number,
-  c: any,
-  d: any,
-) => void;
-export const wasm_bindgen__convert__closures_____invoke__hb8708b899c41cfdc: (
-  a: number,
-  b: number,
-  c: any,
-) => void;
-export const wasm_bindgen__convert__closures_____invoke__h98561927e34d4f5e: (
-  a: number,
-  b: number,
-  c: any,
-) => void;
-export const wasm_bindgen__convert__closures_____invoke__h06502b1615a59994: (
-  a: number,
-  b: number,
-) => number;
-export const wasm_bindgen__convert__closures_____invoke__hb5d687d37c98ca36: (
-  a: number,
-  b: number,
-) => void;
+export const wasm_bindgen__closure__destroy__ha7e8db3887d42df0: (a: number, b: number) => void;
+export const wasm_bindgen__closure__destroy__h2a96d2370812ff4f: (a: number, b: number) => void;
+export const wasm_bindgen__closure__destroy__h53f5e6edcaee0b19: (a: number, b: number) => void;
+export const wasm_bindgen__closure__destroy__h8d9b771f8aaf8b43: (a: number, b: number) => void;
+export const wasm_bindgen__convert__closures_____invoke__h125689c32de92c93: (a: number, b: number, c: any, d: any, e: any, f: any) => any;
+export const wasm_bindgen__convert__closures_____invoke__hb0ee7eca1f0c8a3c: (a: number, b: number, c: any) => [number, number];
+export const wasm_bindgen__convert__closures_____invoke__h25bdadf263b4ed23: (a: number, b: number, c: any, d: any) => void;
+export const wasm_bindgen__convert__closures_____invoke__h6535168d011a2a23: (a: number, b: number, c: any) => void;
+export const wasm_bindgen__convert__closures_____invoke__h73b0a2f6d230dd9f: (a: number, b: number, c: any) => void;
+export const wasm_bindgen__convert__closures_____invoke__h8eea1753f3e49123: (a: number, b: number) => void;
 export const __wbindgen_malloc_command_export: (a: number, b: number) => number;
-export const __wbindgen_realloc_command_export: (
-  a: number,
-  b: number,
-  c: number,
-  d: number,
-) => number;
+export const __wbindgen_realloc_command_export: (a: number, b: number, c: number, d: number) => number;
 export const __wbindgen_exn_store_command_export: (a: number) => void;
 export const __externref_table_alloc_command_export: () => number;
 export const __wbindgen_externrefs: WebAssembly.Table;
-export const __wbindgen_free_command_export: (
-  a: number,
-  b: number,
-  c: number,
-) => void;
+export const __wbindgen_free_command_export: (a: number, b: number, c: number) => void;
 export const __externref_table_dealloc_command_export: (a: number) => void;
 export const __wbindgen_start: () => void;

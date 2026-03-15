@@ -59,8 +59,8 @@ will now focus on YARA-X.
 
 #### What's the current state of YARA-X?
 
-YARA-X is already mature and stable. At VirusTotal, we have been running YARA-X
-in production for a long time, scanning billions of files with tens of thousands
+YARA-X is already mature and stable. At VirusTotal, we have been running YARA-X 
+in production for a long time, scanning billions of files with tens of thousands 
 of rules, and addressing discrepancies and bugs. This means that YARA-X is already
 battle-tested.
 
