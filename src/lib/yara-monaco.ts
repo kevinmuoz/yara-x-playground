@@ -301,6 +301,7 @@ function buildEditor(
     model: model as never,
     automaticLayout: true,
     colorDecorators: false,
+    fixedOverflowWidgets: true,
     links: false,
     minimap: { enabled: false },
     scrollBeyondLastLine: false,

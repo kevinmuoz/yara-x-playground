@@ -24,3 +24,9 @@ body {
   color: #f5f7ff;
   background: #161625;
 }
+
+@media (max-width: 900px) {
+  body {
+    overflow: auto;
+  }
+}
