@@ -1,5 +1,17 @@
 # YARA-X Playground
 
+> [!IMPORTANT]
+>
+> This project started as an experiment to run YARA-X in the browser.
+>
+> It has been integrated into the official YARA-X project:
+> https://virustotal.github.io/yara-x/playground/
+>
+> Source code:
+> https://github.com/VirusTotal/yara-x/tree/main/playground
+>
+> This repository is kept for reference.
+
 [![Demo](https://img.shields.io/badge/Open%20Demo-yara--x--playground-2ea44f?logo=googlechrome&logoColor=white)](https://kevinmuoz.github.io/yara-x-playground/)
 [![Deploy Pages](https://github.com/kevinmuoz/yara-x-playground/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/kevinmuoz/yara-x-playground/actions/workflows/deploy-pages.yml)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-blue?logo=github)](https://kevinmuoz.github.io/yara-x-playground/)
